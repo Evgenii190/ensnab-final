@@ -1,0 +1,92 @@
+.menu__back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    transition: all 0.3s;
+    opacity: 1;
+    height: 100vh;
+    background-color: #343333;
+    overflow-y: scroll;
+    z-index: 300;
+    /* overflow: hidden; */
+}
+
+.menu__wrap_item {
+    font-family: "M600";
+    font-size: 18px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+.menu__wrap {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+
+.menu__contacts_phone {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 16px;
+}
+
+.menu__contacts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu__contacts_mail {
+    display: flex;
+    align-items: center;
+}
+
+.menu__contacts_phone p,
+.menu__contacts_mail p {
+    margin-left: 18px;
+}
+
+.menu__contacts_phone p {
+    font-family: "M700";
+    font-size: 20px;
+    line-height: 26px;
+    color: #fff;
+}
+
+.menu__contacts_mail p {
+    font-family: "M400";
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.menu__top_text {
+    font-family: "M600";
+    font-size: 18px;
+    line-height: 23px;
+    color: #797676;
+    margin-top: 12px;
+}
+
+.menu__logo_mobile {
+    margin-bottom: 40px;
+}
+
+.close {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.menu__wrap_item span {
+    cursor: pointer;
+    text-decoration-line: underline;
+    color: #f7e6a8;
+}
